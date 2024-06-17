@@ -7,7 +7,7 @@ class Solution
             {
                 int a_squared = a * a;
                 int b_squared = c - a_squared;
-                if (b_squared >= 0 && sqrt(b_squared) == (int)(sqrt(b_squared)))
+                if (sqrt(b_squared) == (int)(sqrt(b_squared)))
                 {
                     return true;
                 }
